@@ -9,18 +9,18 @@ print("String with double quotes")
 print('String with single quotes')
 print('Python'+'.py')#Concatenation of string
 #Boolean
-print(1231>123)
-print(12313<645689)
-print(1==93)
-print(1==1)
+print(1231>123);print(12313<64569);print(1==93);print(1==1)
 #Swapping methods
-a=10
-b=19
-print(a,' ',b)
-temp=a
-a=b
-b=temp
-print(a,' ',b)
+a=10;b=19;print(a,' ',b)
+temp=a;a=b;b=temp;print(a,' ',b)
 #One liner method
-a,b=b,a
-print(a,' ',b)
+a,b=b,a;print(a,' ',b)
+#Built in functions
+print(abs(-11231234.2412))
+print(divmod(123,3))
+print(max(100,23,214,234))
+print(min(100,23,214,234))
+print(pow(100,2))
+print(round(110.34))
+print(round(110.98))
+print(type(5))
