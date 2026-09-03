@@ -1,9 +1,9 @@
 '''x,y,z=map(int,input('Enter numbers: ').split(','))
 print(x+y+z)
 name = input("Enter your name: ")
-print("Hello: " + name)
+print("Hello: " + name)'''
 name = "Sam"
-print("Hello {name}")'''
+print(f"Hello {name}")
 def calculate_total(exp):
     total=0
     for item in exp:
