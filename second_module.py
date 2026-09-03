@@ -15,6 +15,8 @@ a=10;b=19;print(a,' ',b)
 temp=a;a=b;b=temp;print(a,' ',b)
 #One liner method
 a,b=b,a;print(a,' ',b)
+#Using addition and subtraction
+a=a+b;b=a-b;a=a-b;print(a,' ',b)
 #Built in functions
 print(abs(-11231234.2412))
 print(divmod(123,3))
