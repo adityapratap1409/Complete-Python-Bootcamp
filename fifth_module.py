@@ -9,3 +9,6 @@ if(5&2 ==1):
     print('true')
 else:
     print ('false')
+print(not True or False)
+print(True or False and False)
+print(2**3**2,' ',17%4)

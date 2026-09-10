@@ -1,0 +1,22 @@
+'''num_1=int(input("Enter an integer value:"))
+num_2=float(input("Enter an float value:"))
+print('Type of num_1- ',type(num_1))
+print('Type of num_2- ',type(num_2))
+value_int=int(num_2)
+print('Type of num_2- ',type(value_int))
+add=value_int+num_1
+print("Value of addition ",add, " and data type is ",type(add))'''
+languages=("python","r","java","c++")
+print(languages," data type is ",type(languages))
+values=list(languages)
+print(values," data type is ",type(values))
+s="100111";c=int(s,2)
+print(c);e=float(s);print(e)
+tup=(('Python',1),('R',2),('Java',3),('C++',4))
+dic=dict(tup)
+print(tup)
+print(dic)
+print(dic['Python'])
+x = 12.34
+y = int(x)
+print(y)
