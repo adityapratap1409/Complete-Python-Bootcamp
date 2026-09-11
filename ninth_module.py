@@ -14,7 +14,7 @@ def factoria(x):
         i-=1
     return factori
 print("The factorial of ",num," is",factoria(num))
-def add(*b):
+'''def add(*b):
     result=0
     for i in b:
         result=result+i
@@ -31,4 +31,4 @@ def sum(n):
         return n+sum(n-1)
     return 1
 num=int(input("Enter the number: "))
-print("The sum is: ",sum(num))
+print("The sum is: ",sum(num))'''

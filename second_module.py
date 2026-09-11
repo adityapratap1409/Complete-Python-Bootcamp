@@ -14,9 +14,11 @@ print(1231>123);print(12313<64569);print(1==93);print(1==1)
 a=10;b=19;print(a,' ',b)
 temp=a;a=b;b=temp;print(a,' ',b)
 #One liner method
-a,b=b,a;print(a,' ',b)
+a,b=b,a;print(a,' ',b)#this doesnt sound good but was there in course
 #Using addition and subtraction
 a=a+b;b=a-b;a=a-b;print(a,' ',b)
+#using xor
+a=a^b;b=a^b;a=a^b;print(a,' ',b)
 #Built in functions
 print(abs(-11231234.2412))
 print(divmod(123,3))
