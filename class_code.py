@@ -20,3 +20,13 @@ print('Average of list using sum function ',list_sum/len(list))
 list_function_num=sum(list)
 print('Sum of list using sum function directly on the list ',list_function_num)
 print('Average of list using sum function directly on the list ',list_function_num/len(list))
+count = int(input("How many numbers do you want to enter? "))
+total = 0
+for i in range(count):
+    num = float(input("Enter number " + str(i+1) + ": "))
+    total = total + num
+
+average = total / count
+
+print("Sum =", total)
+print("Average =", average)
