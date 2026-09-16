@@ -30,3 +30,9 @@ average = total / count
 
 print("Sum =", total)
 print("Average =", average)
+n=int(input("Enter upper limit "))
+odd_sum=0
+for i in range (1,n+1):
+    if(i%2!=0):
+       odd_sum+=i
+print(odd_sum)
