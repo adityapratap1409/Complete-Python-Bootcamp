@@ -61,3 +61,23 @@ if(boole):
     print("Entered number is prime")
 else:
     print("Entered number is not prime")
+n=int(input('Enter the number '))
+a=1
+b=1
+i=1
+while(i<=n):
+    print(a,end=" ")
+    c=a+b
+    a=b
+    b=c
+    i+=1
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+num = int(input("Enter a number: "))
+if num < 0:
+    print("Factorial doesn't exist for negative numbers")
+else:
+    print(f"Factorial of {num} is {factorial(num)}")
