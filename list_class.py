@@ -24,4 +24,23 @@ print(n[2:7:2])
 print(n[4::2])
 print(n[3:7])
 print(n[8:2:-2])
-print(n[4:100])
+list=["cat","dog","cow",56.6,2826,"First Year"]
+print(list)
+print(list[2])
+print(list[-2])
+print(list[-1   ])
+n=[1,2,3,4,5,6,7,8,9,10]
+list=[]
+list.append('a')
+list.append('b')
+list.append('c')
+print(list)
+list.insert(1,88)
+list.insert(2,99)
+print(list)
+
+lis=[]
+lim=int(input("Enter how many subjects you want to enter "))
+for i in range(lim):
+    lis.append(input('Enter subject: ').split())
+    print("i=",lim," ",lis)
