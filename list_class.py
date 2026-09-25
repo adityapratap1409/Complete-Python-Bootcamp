@@ -38,9 +38,38 @@ print(list)
 list.insert(1,88)
 list.insert(2,99)
 print(list)
+# lis=[]
+# lim=int(input("Enter how many subjects you want to enter "))
+# for i in range(lim):
+#     lis.append(input('Enter subject: ').split())
+#     print("i=",lim," ",lis)
+n.reverse()
+print(n)
+n.sort()
+print(n)
+n1=[1,14.25, 14,15.231]
+n1.sort()
+print(n1)
+#1.Write a program to display unique vowels in the given word
+vowels=['a','e','i','o','u']
+word=input("enter a word to search for vowels ")
+found=[]
+ca=0;ce=0;ci=0;co=0;cu=0
+for letter in word:
+ if letter=='a' and ca==0:
+        found.append('a')
+        ca+=1
+ if letter=='e' and ce==0:
+       found.append('e')
+       ce+=1
+ if letter=='i' and ci==0:
+       found.append('i')
+       ci+=1
+ if letter=='o' and co==0:
+       found.append('o')
+       co+=1
+ if letter=='u' and cu==0:
+       found.append('u')
+       cu+=1
+print(found)
 
-lis=[]
-lim=int(input("Enter how many subjects you want to enter "))
-for i in range(lim):
-    lis.append(input('Enter subject: ').split())
-    print("i=",lim," ",lis)
