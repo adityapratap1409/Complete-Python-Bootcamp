@@ -15,7 +15,7 @@ N = int(input("\nEnter N: "))
 print(f"Prime numbers less than {N}:", end=" ")
 for num in range(2, N):
     is_prime = True
-    for i in range(2, int(num ** 0.5) + 1):
+    for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
             is_prime = False
             break
@@ -48,7 +48,7 @@ for num in range(100, 2001):
     total = 0
     while temp > 0:
         digit = temp % 10
-        total += digit ** digits
+        total += digit**digits
         temp //= 10
     if total == num:
         print(num, end=" ")

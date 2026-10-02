@@ -1,20 +1,26 @@
 def factorial(x):
-    if x==1:
+    if x == 1:
         return 1
     else:
-        return(x*factorial(x-1))
-num=int(input("Enter the number "))
-print("The factorial of ",num," is",factorial(num))
-#that was a recursive function the normal way would be like this
+        return x * factorial(x - 1)
+
+
+num = int(input("Enter the number "))
+print("The factorial of ", num, " is", factorial(num))
+
+
+# that was a recursive function the normal way would be like this
 def factoria(x):
-    factori=1
-    i=x
-    while(i>0):
-        factori=factori*i
-        i-=1
+    factori = 1
+    i = x
+    while i > 0:
+        factori = factori * i
+        i -= 1
     return factori
-print("The factorial of ",num," is",factoria(num))
-'''def add(*b):
+
+
+print("The factorial of ", num, " is", factoria(num))
+"""def add(*b):
     result=0
     for i in b:
         result=result+i
@@ -31,4 +37,4 @@ def sum(n):
         return n+sum(n-1)
     return 1
 num=int(input("Enter the number: "))
-print("The sum is: ",sum(num))'''
+print("The sum is: ",sum(num))"""

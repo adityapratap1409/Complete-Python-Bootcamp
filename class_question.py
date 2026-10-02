@@ -1,4 +1,4 @@
-'''n=int(input("Enter a number to check even odd "))
+"""n=int(input("Enter a number to check even odd "))
 if(n%2==0):
     print(n," Is even")
 else:
@@ -36,45 +36,49 @@ else:
 purchase_amount=int(input("Enter your total purchase amount "))
 if(purchase_amount>2000):
     purchase_amount-=500
-print(purchase_amount," is the amount you to pay")'''
-for i in range (1,11):
-    print(i,end=" ")
+print(purchase_amount," is the amount you to pay")"""
+
+for i in range(1, 11):
+    print(i, end=" ")
 print(" ")
-for i in range (2,21):
-    if(i%2==0):
-        print(i,end=" ")
+for i in range(2, 21):
+    if i % 2 == 0:
+        print(i, end=" ")
 print(" ")
-for i in range (1,22):
-    if(i%2!=0):
-        print(i,end=" ")
+for i in range(1, 22):
+    if i % 2 != 0:
+        print(i, end=" ")
 print(" ")
-for i in range(20,0,-2):
-    print(i,end=" ")
+for i in range(20, 0, -2):
+    print(i, end=" ")
 print(" ")
-n=int(input("Enter a number to check if its prime or not "))
-boole=True
-for i in range(2,n):
-    if(n%i==0):
-        boole=False
+n = int(input("Enter a number to check if its prime or not "))
+boole = True
+for i in range(2, n):
+    if n % i == 0:
+        boole = False
         break
-if(boole):
+if boole:
     print("Entered number is prime")
 else:
     print("Entered number is not prime")
-n=int(input('Enter the number '))
-a=1
-b=1
-i=1
-while(i<=n):
-    print(a,end=" ")
-    c=a+b
-    a=b
-    b=c
-    i+=1
+n = int(input("Enter the number "))
+a = 1
+b = 1
+i = 1
+while i <= n:
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
+    i += 1
+
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
     return n * factorial(n - 1)
+
 
 num = int(input("Enter a number: "))
 if num < 0:

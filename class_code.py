@@ -1,38 +1,41 @@
-#first n sum using loops
-n=int(input("Enter upper limit "))
-total_sum=0
-for i in range (1,n+1):
-    total_sum+=i
-print('Sum of numbers using loops: ',total_sum)
-print('Average using loops ',total_sum/n)
-#using formula 
-formula_sum=n*(n+1)/2
-print('Sum of numbers using formula: ',formula_sum)
-print('Average using formula ',formula_sum/n)
-#using sum function on the individual numbers of the list 
-list_sum=0
-list=[1,2,3,4,5,6,7,8,9,10]
+# first n sum using loops
+n = int(input("Enter upper limit "))
+total_sum = 0
+for i in range(1, n + 1):
+    total_sum += i
+print("Sum of numbers using loops: ", total_sum)
+print("Average using loops ", total_sum / n)
+# using formula
+formula_sum = n * (n + 1) / 2
+print("Sum of numbers using formula: ", formula_sum)
+print("Average using formula ", formula_sum / n)
+# using sum function on the individual numbers of the list
+list_sum = 0
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for num in list:
-    list_sum+=num
-print('Sum of list using sum function ',list_sum)
-print('Average of list using sum function ',list_sum/len(list))
-#using the sum function on the list as a whole
-list_function_num=sum(list)
-print('Sum of list using sum function directly on the list ',list_function_num)
-print('Average of list using sum function directly on the list ',list_function_num/len(list))
+    list_sum += num
+print("Sum of list using sum function ", list_sum)
+print("Average of list using sum function ", list_sum / len(list))
+# using the sum function on the list as a whole
+list_function_num = sum(list)
+print("Sum of list using sum function directly on the list ", list_function_num)
+print(
+    "Average of list using sum function directly on the list ",
+    list_function_num / len(list),
+)
 count = int(input("How many numbers do you want to enter? "))
 total = 0
 for i in range(count):
-    num = float(input("Enter number " + str(i+1) + ": "))
+    num = float(input("Enter number " + str(i + 1) + ": "))
     total = total + num
 
 average = total / count
 
 print("Sum =", total)
 print("Average =", average)
-n=int(input("Enter upper limit "))
-odd_sum=0
-for i in range (1,n+1):
-    if(i%2!=0):
-       odd_sum+=i
+n = int(input("Enter upper limit "))
+odd_sum = 0
+for i in range(1, n + 1):
+    if i % 2 != 0:
+        odd_sum += i
 print(odd_sum)

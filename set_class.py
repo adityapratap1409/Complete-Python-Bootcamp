@@ -1,0 +1,42 @@
+
+# d1={(1,3,2),5}
+# print(d1)
+# e={{1,3,2},5}
+# print(e)
+#A set is mutable but may not contain mutable like list
+f={(1,8,3),5}
+print(f)
+num4={16,32,28,36}
+print(num4)
+num4.update([88,66],{100})
+print(num4)
+print(sorted(num4))
+print(sum(num4))
+set1,set2,set3={1,2,3},{3,4,5},{5,6,7}
+print(set2.union(set1))
+print(set3.union(set2))
+print(set3.union(set1))
+print(set2.intersection(set1))
+print(set3.intersection(set1))
+print(set2.intersection(set3))
+print(set1.difference(set2))
+print(set1.difference(set2,set3))
+print(set2.difference(set1,set3))
+print(set1.symmetric_difference(set2))
+print(set2.symmetric_difference(set3))
+set1.intersection_update(set2)
+set1.intersection_update(set1)
+print(set1)
+set2.difference_update(set1)
+set2.difference_update(set3)
+print(set2)
+set3.symmetric_difference_update(set1)
+set3.symmetric_difference_update(set2)
+set3=set1.copy()
+set2=set1.copy()
+print(set3)
+print(set2)
+print(set1.isdisjoint(set2))
+print(set1.isdisjoint(set2))
+print(set1.issubset(set2))
+print(set2.issubset(set3))
