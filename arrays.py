@@ -1,5 +1,4 @@
 from array import *
-
 lst = [1, "ni", 12.32, (1, "232", 123.31235)]
 print(lst)
 arry = array("i", [1, 2, 3, 4, 5, 6])
@@ -73,3 +72,12 @@ print(min)
 print("Items are: ")
 for i in arr:
     print(i, end=" ")
+from array import *
+
+my_array = array("i", [11, 21, 31, 41, 58, 68])
+size = len(my_array)
+print("First element : %d" % my_array[0])
+print(f"Sum of first and last element : {my_array[0] + my_array[-1]}")
+mid = int(size/2)
+print(f"\n index of middle element :{mid}")
+
